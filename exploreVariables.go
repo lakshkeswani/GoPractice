@@ -3,6 +3,8 @@ package main
 import (
 	"GoPractice/loops"
 	_ "GoPractice/loops"
+	_ "GoPractice/struct"
+	_struct "GoPractice/struct"
 	"fmt"
 	_ "fmt"
 )
@@ -18,6 +20,8 @@ var (
 // legnth of variable is equal to life of variable
 //keep the acronyms
 func main() {
+	print("delete the data of user by name")
+	_struct.DeleteUserFronListOfStruct()
 	fmt.Println("2D Array output")
 	loops.MultidimenssionalArray()
 	fmt.Println("remove spaces")
