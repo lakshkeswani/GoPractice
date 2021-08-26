@@ -18,7 +18,7 @@ var (
 // legnth of variable is equal to life of variable
 //keep the acronyms
 func main() {
-	fmt.Println("2D Array")
+	fmt.Println("2D Array output")
 	loops.MultidimenssionalArray()
 	fmt.Println("remove spaces")
 	loops.Removespace()

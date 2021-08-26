@@ -11,9 +11,9 @@ func MultidimenssionalArray() {
 	givenMatix := Matrix{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
 	result := checkdaigonalSum(givenMatix)
 	if result {
-		println("matrix is daigonal sum is equal")
+		println("Matrix is Daigonal sum is equal")
 	} else {
-		println("matrix is  daigonal sum is not equal")
+		println("Matrix is  Daigonal sum is not equal")
 	}
 	givenMatix2 := Matrix{{1, 0, 0}, {0, 2, 0}, {0, 0, 3}}
 	result2 := checkdaigonal(givenMatix2)
