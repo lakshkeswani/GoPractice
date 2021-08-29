@@ -29,7 +29,6 @@ func BasicInterface() {
 	r1 := rectangle{height: 5, width: 7}
 	Shapes := []Shape{c1, r1}
 	fmt.Println("area of Circle = ", Shapes[0].area())
-
 	fmt.Println("area of Rectangle = ", Shapes[1].area())
 
 }
