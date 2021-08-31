@@ -1,7 +1,6 @@
 package main
 
 import (
-	"GoPractice/channel"
 	_ "GoPractice/channel"
 	_ "GoPractice/concurrency"
 	_ "GoPractice/interfaces"
@@ -21,14 +20,16 @@ var (
 // legnth of variable is equal to life of variable
 //keep the acronyms
 func main() {
-	channel.BufferChannel()
+
+	initfunc()
+	//channel.BufferChannel()
 	//	loops.SumOfDigits()
 	/*	fmt.Println("Basic channel")
 		channel.BasicChannel() */
 	/*fmt.Println("Locks implementaion")
 	  concurrency.ImplementLock()*/
 	/*	fmt.Println("Race Condition")
-	concurrency.RaceCondition()
+		concurrency.RaceCondition()
 	*/
 	/*
 		fmt.Println("interface output")
