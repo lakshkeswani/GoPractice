@@ -3,8 +3,11 @@ package main
 import (
 	_ "GoPractice/channel"
 	_ "GoPractice/concurrency"
+	"GoPractice/exceptionhandling"
+	_ "GoPractice/exceptionhandling"
 	_ "GoPractice/interfaces"
 	_ "GoPractice/loops"
+	_ "GoPractice/pointers"
 	_ "GoPractice/struct"
 	_ "fmt"
 )
@@ -20,8 +23,8 @@ var (
 // legnth of variable is equal to life of variable
 //keep the acronyms
 func main() {
-
-	initfunc()
+	exceptionhandling.Deferexp()
+	//initfunc()
 	//channel.BufferChannel()
 	//	loops.SumOfDigits()
 	/*	fmt.Println("Basic channel")
