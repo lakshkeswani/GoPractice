@@ -23,7 +23,8 @@ var (
 // legnth of variable is equal to life of variable
 //keep the acronyms
 func main() {
-	exceptionhandling.Deferexp()
+	exceptionhandling.PanicExp()
+	//exceptionhandling.Deferexp()
 	//initfunc()
 	//channel.BufferChannel()
 	//	loops.SumOfDigits()
