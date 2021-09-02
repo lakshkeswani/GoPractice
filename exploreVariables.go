@@ -3,7 +3,6 @@ package main
 import (
 	_ "GoPractice/channel"
 	_ "GoPractice/concurrency"
-	"GoPractice/exceptionhandling"
 	_ "GoPractice/exceptionhandling"
 	_ "GoPractice/interfaces"
 	_ "GoPractice/loops"
@@ -23,7 +22,8 @@ var (
 // legnth of variable is equal to life of variable
 //keep the acronyms
 func main() {
-	exceptionhandling.PanicExp()
+	//interfaces.MultipleInterfaces()
+	//exceptionhandling.PanicExp()
 	//exceptionhandling.Deferexp()
 	//initfunc()
 	//channel.BufferChannel()
